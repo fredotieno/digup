@@ -1,10 +1,10 @@
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="common.css">
-	<link rel="stylesheet" type="text/css" href="jquery.gridster.min.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap-datetimepicker.min.css">
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.gridster.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-datetimepicker.min.css">
+	<link rel="shortcut icon" href="assets/favicon.ico">
 </head>
 <body>
 	<?php
@@ -292,11 +292,11 @@
 	<?php
 		mysql_close($link);
 	?>
-	<script src="jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="jquery.gridster.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="moment.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="bootstrap-datetimepicker.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery-2.1.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/jquery.gridster.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/moment.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/bootstrap-datetimepicker.min.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript">
 		var gridster;
 		$(document).ready(function(){
